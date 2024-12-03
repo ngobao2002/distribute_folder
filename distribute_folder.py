@@ -2,14 +2,15 @@ import os
 import shutil
 
 # Đường dẫn đến folder plugins chứa 10,000 folder nhỏ
-source_folder = "D:\plugins"
+source_folder = "D:\plugins4"
 
 # Danh sách các folder đích
 destination_folders = [
-    "D:\plugins1",
-    "D:\plugins2",
-    "D:\plugins3",
-    "D:\plugins4"
+    "D:\plugins4.1",
+    "D:\plugins4.2",
+    "D:\plugins4.3",
+    "D:\plugins4.4",
+    "D:\plugins4.5",
 ]
 
 def distribute_folders(source_folder, destination_folders):
