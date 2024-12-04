@@ -3,13 +3,30 @@ import shutil
 
 # Danh sách các folder nhỏ
 source_folders = [
-    "D:\plugins1.1",
-    "D:\plugins1.2",
-    "D:\plugins1.3"
+    "D:\plugins1",
+    "D:\plugins2",
+    "D:\plugins3",
+    "D:\plugins4",
+    "D:\plugins5",
+    "D:\plugins6",
+    "D:\plugins7",
+    "D:\plugins8",
+    "D:\plugins9",
+    "D:\plugins10",
+    "D:\plugins11",
+    "D:\plugins12",
+    "D:\plugins13",
+    "D:\plugins14",
+    "D:\plugins15",
+    "D:\plugins16",
+    "D:\plugins17",
+    "D:\plugins18",
+    "D:\plugins19",
+    "D:\plugins20"
 ]
 
 # Folder lớn để gom tất cả folder con lại
-destination_folder = "D:\plugins1"
+destination_folder = "D:\plugins"
 
 def merge_folders(source_folders, destination_folder):
     # Tạo folder lớn nếu chưa tồn tại
